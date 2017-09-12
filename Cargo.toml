@@ -1,0 +1,12 @@
+[package]
+name = "pure-rust-scrypt"
+version = "0.1.0"
+authors = ["Chris McDonald <mail.chris.mcdonald@gmail.com>"]
+
+[dependencies]
+hmac = "0.4"
+sha2 = "0.6"
+pbkdf2 = "0.1.0"
+
+[profile.test]
+opt-level = 2
